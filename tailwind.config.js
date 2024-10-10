@@ -17,6 +17,9 @@ module.exports = {
         '2' :'68px',
         '1':'38px'
       },
+      boxShadow: {
+        'box-shadow-home': '0px 0px 30.91px 0px rgba(0, 0, 0, 0.1)',
+      },
     },
     },
   plugins: [],
