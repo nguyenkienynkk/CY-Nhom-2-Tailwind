@@ -17,11 +17,6 @@ module.exports = {
     //     '2xl': '1920px',
     //   },
     extend: {
-      colors: {
-        'custom-text': '#356C07',
-        'footer': '#356C08',
-        'mucluc': '#0000004D'
-      },
       fontFamily: {
         'nunito': ['Nunito', 'sans-serif'],
       },
@@ -37,8 +32,6 @@ module.exports = {
     },
   },
   plugins: [],
-
-
 }
 
 
