@@ -15,13 +15,21 @@
             <div><span class="text-[#C4C4C4] text-[14px]">Thảo dược</span></div>
         </div>
     </div>
-    <div class="flex flex-wrap gap-[30px] justify-center pt-9 pb-10">
+    <div class="flex flex-wrap gap-[30px] justify-center pt-9 pb-10 sm: p-3">
         <div class="flex flex-col gap-4">
             <div>
-                <img src="../assets/images/img-kien/chanhto.svg" alt="">
+                <div class="relative inline-block">
+                    <img src="../assets/images/img-kien/chanhto.svg" alt="Chanh To">
+                    <img src="../assets/images/img-kien/replay.svg" alt="Replay"
+                         class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                </div>
             </div>
             <div class="flex gap-4">
-                <div class="grow"><img src="../assets/images/img-kien/chanhnho.svg" alt=""></div>
+                <div class="relative grow inline-block">
+                    <img src="../assets/images/img-kien/chanhnho.svg" alt="Chanh Nho">
+                    <img src="../assets/images/img-kien/replay-small.svg" alt="Replay"
+                         class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                </div>
                 <div class="grow"><img src="../assets/images/img-kien/chanhnho.svg" alt=""></div>
                 <div class="grow"><img src="../assets/images/img-kien/chanhnho.svg" alt=""></div>
                 <div class="grow"><img src="../assets/images/img-kien/chanhnho.svg" alt=""></div>
@@ -32,53 +40,245 @@
             <div class="mb-3">
                 <span class="font-[600] text-[28px] leading-[38px] ">Mứt chanh tây sấy lạnh 100% hữu cơ</span>
             </div>
-            <div class="w-[654px] h-[133px] flex flex-col justify-start ">
-                <div><p class="opacity-[40%] line-through leading-[22.55px] ">300.000 ₫</p></div>
-                <div class="flex rounded-sm items-center">
-                    <div><span class="leading-[33.65px] ">250.000 ₫</span></div>
-                    <div><span class="w-[84px] h-[23px] bg-red-700 text-white ">GIẢM 20%</span></div>
+            <div class="max-w-[654px] bg-[#FAFAFA] p-5 h-[133px] flex flex-col justify-start ">
+                <div class="grow flex items-center">
+                    <p class="opacity-[40%] line-through sm:text-[14px] leading-[22.55px] ">300.000 ₫</p>
                 </div>
-                <div><p>Giá cả, chất lượng tốt nhất trên thị trường</p></div>
+                <div class="flex rounded-sm items-center grow gap-12">
+                    <div><span
+                            class="leading-[33.65px] text-[24px] font-nunito font-bold text-[#E10000] ">250.000 ₫</span>
+                    </div>
+                    <div><span
+                            class="w-[84px] h-[23px] bg-[#E10000] text-white text-[12px] leading-[19.63px] rounded-[5px] items-center font-nunito py-[5px] font-[500] px-2">GIẢM 20%</span>
+                    </div>
+                </div>
+                <div class="grow flex items-center">
+                    <p>Giá cả, chất lượng tốt nhất trên thị trường</p>
+                </div>
             </div>
-            <div>
-                <span>Mô tả: Sản phẩm mứt chanh tây được sấy lạnh được sản xuất từ nông trại Nông Thảo, 100%<br> hữu cơ, đóng túi Zip dễ bảo quản.</span>
+            <div class="mt-7">
+                <span><span class="font-bold">Mô tả:</span> Sản phẩm mứt chanh tây được sấy lạnh được sản xuất từ nông trại Nông Thảo, 100%<br> hữu cơ, đóng túi Zip dễ bảo quản.</span>
             </div>
-            <div class="flex">
+            <div class="flex gap-4 items-center py-5">
                 <div><span>Loại (g):</span></div>
-                <div><span>150</span></div>
-                <div><span>250</span></div>
-                <div><span>500</span></div>
+                <div class="w-[45px] h-[42px] bg-[#356C07] text-white flex items-center justify-center ">
+                    <span>150</span></div>
+                <div class="w-[45px] h-[42px] bg-[#F6F6F6] flex items-center justify-center "><span>250</span></div>
+                <div class="w-[45px] h-[42px] bg-[#F6F6F6] flex items-center justify-center"><span>500</span></div>
             </div>
-            <div class="flex">
+            <div class="flex items-center gap-4">
                 <div><span>Số lượng:</span></div>
                 <div><img src="../assets/images/img-kien/plus.svg" alt=""></div>
                 <div><span>4352 sản phẩm có sẵn</span></div>
             </div>
-            <div>
-                <div class="flex">
-                    <button class="w-[142px] h-[46px] ">
+            <div class="flex items-center justify-start max-w-[580px] pb-8 pt-4 gap-2">
+                <div class="flex-1 hidden md:flex min-w-[120px]">
+                    <button class="w-full h-[46px] border border-[#356C07] flex justify-center items-center gap-2">
                         <img src="../assets/images/img-kien/chat.svg" alt="">
                         <span>CHAT NGAY</span>
                     </button>
                 </div>
-                <div>
-                    <button class="w-[204px] h-[46px]">
+                <div class="flex-1 min-w-[120px]">
+                    <button class="w-full h-[46px] border border-[#E10000] bg-[#FFF2F2] flex justify-center items-center gap-2">
                         <img src="../assets/images/img-kien/cart-small.svg" alt="">
-                        <span>Thêm vào giỏ hàng</span>
+                        <span class="text-[#E10000]">Thêm vào giỏ hàng</span>
                     </button>
                 </div>
-                <div>
-                    <button class="w-[204px] h-[46px]">
-                        <span>Thanh toán</span>
+                <div class="flex-1 min-w-[120px]">
+                    <button class="w-full h-[46px] bg-[#E10000] flex justify-center items-center gap-2">
+                        <span class="text-white">Thanh toán</span>
                     </button>
                 </div>
             </div>
-            <div class="flex gap-4">
+
+            <hr class="bg-[#F0F0F0]">
+            <div class="flex gap-3 pt-10">
                 <div><span>Chia sẻ:</span></div>
                 <div><img src="../assets/images/img-kien/twitter.svg" alt=""></div>
                 <div><img src="../assets/images/img-kien/printest.svg" alt=""></div>
                 <div><img src="../assets/images/img-kien/messager.svg" alt=""></div>
                 <div><img src="../assets/images/img-kien/google.svg" alt=""></div>
+            </div>
+        </div>
+    </div>
+    <div class="flex place-content-center relative">
+        <div class="absolute bottom-0 w-full max-w-[650px] border-b-4 border-[#356C07]"></div>
+        <div class="flex flex-col items-center pt-9 max-w-[650px] w-full pb-10">
+            <span class="text-[18px] font-bold py-2 text-[#333333] ">CHI TIẾT SẢN PHẨM</span>
+            <div class="w-full max-w-[650px] relative border-t-2 border-[#356C07]">
+                <hr class="w-[176px] border-2 border-[#356C07] absolute left-1/2 transform -translate-x-1/2">
+            </div>
+            <div class="mt-9">
+                <div>
+            <span class="flex flex-wrap text-[#4F4F4F] ">
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                <br>
+                <br>
+
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui. officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem
+            </span>
+                </div>
+                <div class="my-[51px]">
+                    <img src="../assets/images/img-kien/img_4.png" alt="">
+                </div>
+                <div class="pb-[37px]">
+                    <span class="text-[28px] text-[#4F4F4F] sm:text-[16px]">Sản phẩm từ nông trại hữu cơ</span>
+                </div>
+                <div class="pb-[34px]">
+            <span class="sm:block md: p-0">
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                <br><br>
+
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui. officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem
+            </span>
+                </div>
+                <div>
+                    <img src="../assets/images/img-kien/img_5.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="flex place-content-center">
+        <div class="flex w-full max-w-[1170px] justify-start gap-2 flex-col">
+            <div class="flex justify-start">
+                <div class="flex max-w-[1170px] w-full flex-row sm:flex sm:place-content-center sm:mt-4">
+                    <div>
+                        <img src="../assets/images/img-kien/la.svg" alt="">
+                    </div>
+                    <div>
+                        <span class="text-[28px] font-bold uppercase text-[#333333] sm:text-[16px] sm:gap-4">Sản phẩm liên quan</span>
+                    </div>
+                </div>
+            </div>
+            <div class="overflow-x-auto">
+                <div class="flex gap-[30px] justify-center mt-[41px] mb-10">
+                    <!-- Sản phẩm 1 -->
+                    <div class="relative flex items-center">
+                        <button class="absolute top-2/5 transform -translate-y-1/2">
+                            <img src="../assets/images/img-kien/prev.svg" alt="">
+                        </button>
+                        <div class="border pb-2 flex flex-col items-center">
+                            <div><img src="../assets/images/img-kien/chanh50.svg" alt=""></div>
+                            <div class="text-center">
+                                <span>Thảo dược Cao cà gai leo Yên<br> Thủy - 250g</span>
+                            </div>
+                            <div class="flex flex-row gap-[20px] border-t pt-3 mt-3">
+                                <div class="text-[#E10000] text-[18px] font-[700] sm:text-[14px]">220.000 đ</div>
+                                <div class="opacity-[40%] line-through sm:text-[14px]">250,000 đ</div>
+                                <div><img src="../assets/images/img-kien/small-cart.svg" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Sản phẩm 2 -->
+                    <div class="border pb-2 flex flex-col items-center">
+                        <div><img src="../assets/images/img-kien/chanh.svg" alt=""></div>
+                        <div class="text-center"><span>Thảo dược Cao cà gai leo Yên<br> Thủy - 250g</span></div>
+                        <div class="flex flex-row gap-[20px] border-t pt-3 mt-3">
+                            <div class="text-[#E10000] text-[18px] sm:text-[14px] font-[700]">220.000 đ</div>
+                            <div class="opacity-[40%] line-through sm:text-[14px]">250,000 đ</div>
+                            <div><img src="../assets/images/img-kien/small-cart-white.svg" alt=""></div>
+                        </div>
+                    </div>
+
+                    <!-- Sản phẩm 3 -->
+                    <div class="border pb-2 flex flex-col items-center">
+                        <div><img src="../assets/images/img-kien/chanh.svg" alt=""></div>
+                        <div class="text-center"><span>Thảo dược Cao cà gai leo Yên<br> Thủy - 250g</span></div>
+                        <div class="flex flex-row gap-[20px] border-t pt-3 mt-3">
+                            <div class="text-[#E10000] text-[18px] sm:text-[14px] font-[700]">220.000 đ</div>
+                            <div class="opacity-[40%] line-through sm:text-[14px]">250,000 đ</div>
+                            <div><img src="../assets/images/img-kien/small-cart-white.svg" alt=""></div>
+                        </div>
+                    </div>
+                    <!-- Sản phẩm 4 -->
+                    <div class="relative flex items-center">
+                        <div class="border pb-2 flex flex-col items-center relative">
+                            <div><img src="../assets/images/img-kien/chanh.svg" alt=""></div>
+                            <div class="text-center">
+                                <span>Thảo dược Cao cà gai leo Yên<br> Thủy - 250g</span>
+                            </div>
+                            <div class="flex flex-row gap-[20px] border-t pt-3 mt-3">
+                                <div class="text-[#E10000] text-[18px] font-[700] sm:text-[14px]">220.000 đ</div>
+                                <div class="opacity-[40%] line-through sm:text-[14px]">250,000 đ</div>
+                                <div><img src="../assets/images/img-kien/small-cart.svg" alt=""></div>
+                            </div>
+
+                            <button class="absolute top-[38%] right-0 transform -translate-y-1/2">
+                                <img src="../assets/images/img-kien/nexxt.svg" alt="Previous Button">
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="w-full bg-[#FAFAFA]">
+        <div class="flex place-content-center">
+            <div class="pt-16 md:flex gap-24 md:place-content-center w-full md:flex-row max-w-[1920px] sm:flex-col">
+                <div class="flex">
+                    <img class="flex-shrink" src="../assets/images/img-kien/anh-dat.svg" alt="">
+                </div>
+                <div>
+                    <div class="flex items-center gap-2 sm:place-content-center sm:mt-4">
+                        <div>
+                            <img src="../assets/images/img-kien/la.svg" alt="">
+                        </div>
+                        <div>
+                            <span class="md:text-[28px] sm:text-[16px] font-bold ">TẠI SAO LỰA CHỌN NÔNG THẢO?</span>
+                        </div>
+                    </div>
+                    <div class="md: my-5  sm: p-4">
+                        <span>Chúng tôi mang đến cho bạn các sản<br> phẩm nông sản và thảo dược được sản xuất sạch bền vững và không có hóa chất.</span>
+                    </div>
+                    <div class="flex gap-4 sm:p-4">
+                        <div class="sm: pt-12 md:pt-0">
+                            <img src="../assets/images/img-kien/line.svg" alt="">
+                        </div>
+                        <div class="flex flex-col">
+                            <!-- Mục 100% hữu cơ -->
+                            <div class="flex-grow">
+                                <div>
+                <span class="text-[#356C07] text-[21px] sm:text-[16px] font-bold leading-[48px] sm:leading-[28px]">
+                    100% hữu cơ
+                </span>
+                                </div>
+                                <div>
+                <span class="leading-[28px] sm:leading-[22px] text-base sm:text-sm">
+                    Thực hành tốt trồng trọt theo tiêu chuẩn GACP-WHO<br> để nguyên liệu an toàn cho sức khỏe của bạn
+                </span>
+                                </div>
+                            </div>
+
+                            <!-- Mục Công nghệ -->
+                            <div class="flex-grow md: my-9 sm: my-4">
+                                <div>
+                <span class="text-[#356C07] text-[21px] sm:text-[16px] font-bold leading-[48px] sm:leading-[28px]">
+                    Công nghệ
+                </span>
+                                </div>
+                                <div>
+                <span class="leading-[28px] sm:leading-[22px] text-base sm:text-sm">
+                    Áp dụng công nghệ sản xuất tiêu chuẩn tùy theo loại sản phẩm.<br> Tuân thủ phương pháp sản xuất khoa học, an toàn.
+                </span>
+                                </div>
+                            </div>
+
+                            <!-- Mục Trách nhiệm -->
+                            <div class="flex-grow">
+                                <div>
+                <span class="text-[#356C07] text-[21px] sm:text-[16px] font-bold leading-[48px] sm:leading-[28px]">
+                    Trách nhiệm
+                </span></div><div>
+                <span class="leading-[28px] sm:leading-[22px] text-base sm:text-sm">
+                    Nông Thảo chăm chút từng khâu sản xuất, kiểm định và phân phối<br> để sản phẩm đến tay bạn có chất lượng tốt nhất
+                </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
