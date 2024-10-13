@@ -808,10 +808,6 @@ video {
   margin-right: 0px;
 }
 
-.mr-1 {
-  margin-right: 38px;
-}
-
 .mr-12 {
   margin-right: 3rem;
 }
@@ -962,10 +958,6 @@ video {
 
 .mt-\[60px\] {
   margin-top: 60px;
-}
-
-.mt-\[80px\] {
-  margin-top: 80px;
 }
 
 .mt-\[8px\] {
@@ -1667,8 +1659,8 @@ video {
   gap: 35px;
 }
 
-.gap-\[43px\] {
-  gap: 43px;
+.gap-\[38px\] {
+  gap: 38px;
 }
 
 .gap-\[5px\] {
@@ -1677,10 +1669,6 @@ video {
 
 .gap-\[8px\] {
   gap: 8px;
-}
-
-.gap-\[38px\] {
-  gap: 38px;
 }
 
 .gap-y-4 {
@@ -2303,6 +2291,10 @@ video {
   padding-bottom: 65px;
 }
 
+.pb-\[72px\] {
+  padding-bottom: 72px;
+}
+
 .pl-1 {
   padding-left: 0.25rem;
 }
@@ -2341,10 +2333,6 @@ video {
 
 .pl-\[55px\] {
   padding-left: 55px;
-}
-
-.pr-4 {
-  padding-right: 1rem;
 }
 
 .pr-\[18px\] {
@@ -2532,10 +2520,6 @@ video {
 
 .text-\[30px\] {
   font-size: 30px;
-}
-
-.text-\[34px\] {
-  font-size: 34px;
 }
 
 .text-\[36px\] {
@@ -2875,11 +2859,6 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-\[\#f72e2e\] {
-  --tw-text-opacity: 1;
-  color: rgb(247 46 46 / var(--tw-text-opacity));
-}
-
 .line-through {
   text-decoration-line: line-through;
 }
@@ -3054,11 +3033,6 @@ video {
 }
 
 @media (min-width: 640px) {
-  .sm\:mx-auto {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
   .sm\:mb-3 {
     margin-bottom: 0.75rem;
   }
@@ -3119,10 +3093,6 @@ video {
     width: 100%;
   }
 
-  .sm\:max-w-\[340px\] {
-    max-width: 340px;
-  }
-
   .sm\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -3173,20 +3143,12 @@ video {
     padding-right: 40px;
   }
 
-  .sm\:pl-0 {
-    padding-left: 0px;
-  }
-
   .sm\:pl-\[20px\] {
     padding-left: 20px;
   }
 
   .sm\:pl-\[30px\] {
     padding-left: 30px;
-  }
-
-  .sm\:pr-0 {
-    padding-right: 0px;
   }
 
   .sm\:pr-\[18px\] {
@@ -3217,10 +3179,6 @@ video {
     font-size: 16px;
   }
 
-  .sm\:text-\[28px\] {
-    font-size: 28px;
-  }
-
   .sm\:text-sm {
     font-size: 0.875rem;
     line-height: 1.25rem;
@@ -3236,10 +3194,6 @@ video {
 
   .sm\:leading-\[28px\] {
     line-height: 28px;
-  }
-
-  .sm\:leading-\[39\.51px\] {
-    line-height: 39.51px;
   }
 }
 
@@ -3454,6 +3408,10 @@ video {
 
   .md\:pl-0 {
     padding-left: 0px;
+  }
+
+  .md\:pl-10 {
+    padding-left: 2.5rem;
   }
 
   .md\:pl-\[50px\] {
