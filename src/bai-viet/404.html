@@ -6,34 +6,38 @@
     <title>Nông Thảo</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<header class="bg-white border-b border-gray-300 shadow-lg fixed top-0 left-0 right-0 z-50">
-    <nav class="flex justify-between items-center max-w-5xl mx-auto p-5">
-        <img src="\src\assets\images\img-dzung\logo.png" alt="Nông Thảo" class="max-w-xs">
-        
-        <ul class="flex space-x-5">
-            <li class="font-nunito text-gray-700 font-semibold text-base text-center" 
-            style="transition: color 0.3s;" 
-            onmouseover="this.style.color='#356C07';" 
-            onmouseout="this.style.color='';">SẢN PHẨM </li>
-            <li class="font-nunito text-gray-700 font-semibold text-base text-center" 
-            style="transition: color 0.3s;" 
-            onmouseover="this.style.color='#356C07';" 
-            onmouseout="this.style.color='';">VỀ NÔNG THẢO</li>
-            <li class="font-nunito text-gray-700 font-semibold text-base text-center" 
-            style="transition: color 0.3s;" 
-            onmouseover="this.style.color='#356C07';" 
-            onmouseout="this.style.color='';">BLOG</li>
-            <li class="font-nunito text-gray-700 font-semibold text-base text-center" 
-            style="transition: color 0.3s;" 
-            onmouseover="this.style.color='#356C07';" 
-            onmouseout="this.style.color='';">LIÊN HỆ</li>
-        </ul>
-
-        <div class="flex items-center space-x-2">
-            <img src="\src\assets\images\img-dzung\search.png" alt="Search" class="w-9">
-            <img src="\src\assets\images\img-dzung\cart.png" alt="Cart" class="w-9">
+<header class="bg-white border-b border-gray-300 shadow-lg fixed top-0 left-0 right-0 z-50 ">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center h-16">
+            <div class="flex-shrink-0">
+                <img src="/src/assets/images/img-dzung/logo.png" alt="Nông Thảo" class="h-8 w-auto">
+            </div>
+            <nav class=" md:flex flex-1 justify-center">
+                <ul class="flex space-x-8">
+                    <li>
+                        <a href="#" class="font-nunito text-gray-700 font-semibold text-base hover:text-[#356C07] transition duration-300">SẢN PHẨM</a>
+                    </li>
+                    <li>
+                        <a href="#" class="font-nunito text-gray-700 font-semibold text-base hover:text-[#356C07] transition duration-300">VỀ NÔNG THẢO</a>
+                    </li>
+                    <li>
+                        <a href="#" class="font-nunito text-gray-700 font-semibold text-base hover:text-[#356C07] transition duration-300">BLOG</a>
+                    </li>
+                    <li>
+                        <a href="#" class="font-nunito text-gray-700 font-semibold text-base hover:text-[#356C07] transition duration-300">LIÊN HỆ</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="flex items-center">
+                <button class="p-1">
+                    <img src="/src/assets/images/img-dzung/search.png" alt="Search" class="h-6 w-6">
+                </button>
+                <button class="p-1 ml-4">
+                    <img src="/src/assets/images/img-dzung/cart.png" alt="Cart" class="h-6 w-6">
+                </button>
+            </div>
         </div>
-    </nav>
+    </div>
 </header>
 <img src="\src\assets\images\img-dzung\nomal.png" alt="nomal" class="w-full h-auto mt-[80px]">
         
@@ -59,7 +63,7 @@
 
         <div class="flex max-h-60 rounded-lg w-full">
             <div>
-                <img class="img-style w-auto" src="\src\assets\images\img-dzung\footer-1.png" alt="">
+                <img class="img-style w-full" src="\src\assets\images\img-dzung\footer-1.png" alt="">
             </div>
             <div>
                 <img class="img-style" src="\src\assets\images\img-dzung\footer-2.png" alt="">
