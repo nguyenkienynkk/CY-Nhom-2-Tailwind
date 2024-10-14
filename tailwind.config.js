@@ -2,20 +2,9 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    // container: {
-    //   DEFAULT: '5rem',
-    //   sm: '5rem',
-    //   lg: '4rem',
-    //   xl: '5rem',
-    //   '2xl': '23.5rem',
+    // screens: {
+    //   'sm': { 'max': '376px' },
     // },
-    //   screens: {
-    //     sm: '360px',
-    //     md: '728px',
-    //     lg: '984px',
-    //     xl: '1240px',
-    //     '2xl': '1920px',
-    //   },
     extend: {
       fontFamily: {
         'nunito': ['Nunito', 'sans-serif'],

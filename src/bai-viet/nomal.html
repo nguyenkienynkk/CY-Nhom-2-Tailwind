@@ -6,180 +6,244 @@
     <title>Nông Thảo</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<header class="bg-white border-b border-gray-300 shadow-lg fixed top-0 left-0 right-0 z-50">
-    <nav class="flex justify-between items-center max-w-5xl mx-auto p-5">
-        <img src="\src\assets\images\img-dzung\logo.png" alt="Nông Thảo" class="max-w-xs">
-        
-        <ul class="flex space-x-5">
-            <li class="font-nunito text-gray-700 font-semibold text-base text-center" 
-            style="transition: color 0.3s;" 
-            onmouseover="this.style.color='#356C07';" 
-            onmouseout="this.style.color='';">SẢN PHẨM </li>
-            <li class="font-nunito text-gray-700 font-semibold text-base text-center" 
-            style="transition: color 0.3s;" 
-            onmouseover="this.style.color='#356C07';" 
-            onmouseout="this.style.color='';">VỀ NÔNG THẢO</li>
-            <li class="font-nunito text-gray-700 font-semibold text-base text-center" 
-            style="transition: color 0.3s;" 
-            onmouseover="this.style.color='#356C07';" 
-            onmouseout="this.style.color='';">BLOG</li>
-            <li class="font-nunito text-gray-700 font-semibold text-base text-center" 
-            style="transition: color 0.3s;" 
-            onmouseover="this.style.color='#356C07';" 
-            onmouseout="this.style.color='';">LIÊN HỆ</li>
-        </ul>
 
-        <div class="flex items-center space-x-2">
-            <img src="\src\assets\images\img-dzung\search.png" alt="Search" class="w-9">
-            <img src="\src\assets\images\img-dzung\cart.png" alt="Cart" class="w-9">
-        </div>
-    </nav>
-</header>
-
-<body class="font-sans bg-gray-200 pt-24">
-    <img src="\src\assets\images\img-dzung\nomal.png" alt="Cart" class="..">
-    <div class="container mx-auto max-w-5xl p-5 bg-white flex  ">
-        <main class="container mx-auto px-20 py-10 flex-grow ">
-            <div class="text-sm text-gray-500 mb-6 ">
-                Trang chủ > Đây là một trang bình thường
+<body class="font-sans bg-gray-200 pt-6 sm:pt-24 max-w-[1920px] mx-auto">
+   
+    <header class="bg-white border-b border-gray-300 shadow-lg fixed top-0 left-0 right-0 z-50">
+        <div class="max-w-[1170px] mx-auto">
+            <div class="flex justify-between items-center px-[15px] md:px-0">
+                <a class="cursor-pointer" href="../bai-viet/nomal.html">
+                    <div class="md:hidden w-[30px] flex items-center">
+                        <div class="w-[24px]">
+                            <img class="w-full object-cover" src="../assets/images/img-andrew/menu-header.svg" alt="">
+                        </div>
+                    </div>
+                </a>
+                <a class="cursor-pointer" href="../trang-chu/trang-chu.html">
+                    <div class="w-[138px] md:w-[229px] pb-[16px] pt-[8px] md:pb-[18px] md:pt-[18px]">
+                        <img src="/src/assets/images/img-dzung/logo.png" alt="Nông Thảo" class="w-full object-cover">
+                    </div>
+                </a>
+                <nav class="hidden md:flex flex-1 justify-center">
+                    <ul class="flex gap-[32px]">
+                        <li>
+                            <a href="../trang-chu/thao-duoc.html"
+                                class="font-nunito text-gray-700 font-semibold text-base hover:text-[#356C07] transition duration-300">SẢN
+                                PHẨM</a>
+                        </li>
+                        <li>
+                            <a href="../danh-muc-page/home.html"
+                                class="font-nunito text-gray-700 font-semibold text-base hover:text-[#356C07] transition duration-300">VỀ
+                                NÔNG THẢO</a>
+                        </li>
+                        <li>
+                            <a href="../danh-muc-page/about.html"
+                                class="font-nunito text-gray-700 font-semibold text-base hover:text-[#356C07] transition duration-300">BLOG</a>
+                        </li>
+                        <li>
+                            <a href="../danh-muc-page/hotline.html"
+                                class="font-nunito text-gray-700 font-semibold text-base hover:text-[#356C07] transition duration-300">LIÊN
+                                HỆ</a>
+                        </li>
+                    </ul>
+                </nav>
+                <a class="cursor-pointer" href="../bai-viet/404.html">
+                    <div class="w-[30px] md:w-[229px] flex items-center justify-end gap-[17px]">
+                        <button class="w-[36px] hidden md:block">
+                            <img src="/src/assets/images/img-dzung/search.png" alt="Search" class="w-full object-cover">
+                        </button>
+                        <button class="w-[38px]">
+                            <img src="/src/assets/images/img-dzung/cart.png" alt="Cart" class="w-full object-cover">
+                        </button>
+                    </div>
+                </a>
             </div>
-
-            <p class="font-nunito">There are many variations of passages of Lorem Ipsum 
-                available, but the majority have suffered alteration 
-                in some form, by injected humour, or randomised words 
-                which don't look even slightly believable. If you are 
-                going to use a passage of Lorem Ipsum, you need to be 
-                sure there isn't anything embarrassing hidden in the middle of text.
-                 All the Lorem Ipsum generators on the Internet tend to repeat predefined
-                  chunks as necessary, making this the first true generator on the Internet.
-                   It uses a dictionary of over 200 Latin words, combined with a handful of 
-                   model sentence structures, to generate Lorem Ipsum which looks reasonable.
-                    The generated Lorem Ipsum is therefore always free from repetition,
-                 injected humour, or non-characteristic words etc.</p>
-            
-            <article class="prose lg:prose-xl max-w-none mt-[25px]">
-                <h2 class="text-3xl font-bold mb-4">Đây là một trang bình thường</h2>
-                <p class="mb-4 font-nutito">
-                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.
-                </p>
-                <p class="mb-4">
-                    All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
-                </p>
-                <p>
-                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.
-                </p>
-                <p>There are many variations of passages of Lorem Ipsum 
-                    available, but the majority have suffered alteration 
-                    in some form, by injected humour, or randomised words 
-                    which don't look even slightly believable. If you are 
-                    going to use a passage of Lorem Ipsum, you need to be 
-                    sure there isn't anything embarrassing hidden in the middle of text.
-                     All the Lorem Ipsum generators on the Internet tend to repeat predefined
-                      chunks as necessary, making this the first true generator on the Internet.
-                       It uses a dictionary of over 200 Latin words, combined with a handful of 
-                       model sentence structures, to generate Lorem Ipsum which looks reasonable.
-                        The generated Lorem Ipsum is therefore always free from repetition,
-                     injected humour, or non-characteristic words etc.</p>
-            </article>
-        </main>
-    
         </div>
+    </header>
+
+
+    <img src="\src\assets\images\img-dzung\nomal.png" alt="Cart" class="max-w-full hidden sm:block">
+    <div class="mx-auto max-w-[1170px] p-3 sm:p-5 bg-white ">
+        <div class="text-xs sm:text-sm text-black mb-3 sm:mb-3">
+            Trang chủ > <span class="text-gray-500 pt-2 pl-2 ">Đây là một trang bình thường</span>
+        </div>
+
+        <div class="sm:ml-[185px] sm:mr-[180px]">
+            <main class="mx-auto flex-grow px-3 sm:px-[40px]">
+                <div class="sm:hidden font-nunito text-xl font-bold leading-tight text-left text-[#4F4F4F]">Đây là một trang bình thường</div>
+                <div class="font-nunito text-sm sm:text-[16px] font-normal leading-relaxed sm:leading-[21.82px] text-left pt-3 sm:pt-[25px] text-[#4F4F4F]">
+                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+                </div>
+                <div class="pt-8 sm:pt-[25px]">
+                    <div class=" font-nunito text-xl font-bold leading-tight text-left text-[#4F4F4F]">Đây là một trang bình thường</div>
+                    <div class="font-nunito text-sm sm:text-[16px] font-normal leading-relaxed sm:leading-[21.82px] text-left mt-3 sm:mt-[20px] text-[#4F4F4F]">
+                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+                    </div>
+                    <div class="font-nunito text-sm sm:text-[16px] font-normal leading-relaxed sm:leading-[21.82px] text-left mt-3 sm:mt-[20px] mb-6 sm:mb-[189px] text-[#4F4F4F]">
+                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
 
     <footer class="w-full bg-[#356C07] font-nunito ">
-       
-        <div class="flex max-h-60">
-            <div>
-                <img class="img-style w-auto" src="\src\assets\images\img-dzung\footer-1.png" alt="">
+        <div class="max-w-[1920px] mx-auto grid grid-cols-3 md:grid-cols-8">
+            <div class="col-span-1">
+                <img class="w-full object-cover" src="\src\assets\images\img-dzung\footer-1.png" alt="">
             </div>
-            <div>
-                <img class="img-style" src="\src\assets\images\img-dzung\footer-2.png" alt="">
+            <div class="col-span-1">
+                <img class="w-full object-cover" src="\src\assets\images\img-dzung\footer-2.png" alt="">
             </div>
-            <div>
-                <img class="img-style" src="\src\assets\images\img-dzung\footer-3.png" alt="">
+            <div class="col-span-1">
+                <img class="w-full object-cover" src="\src\assets\images\img-dzung\footer-3.png" alt="">
             </div>
-            <div>
-                <img class="img-style" src="\src\assets\images\img-dzung\footer-1.png" alt="">
+            <div class="hidden md:block col-span-1">
+                <img class="w-full object-cover" src="\src\assets\images\img-dzung\footer-1.png" alt="">
             </div>
-            <div>
-                <img class="img-style" src="\src\assets\images\img-dzung\footer-2.png" alt="">
+            <div class="hidden md:block col-span-1">
+                <img class="w-full object-cover" src="\src\assets\images\img-dzung\footer-2.png" alt="">
             </div>
-            <div>
-                <img class="img-style" src="\src\assets\images\img-dzung\footer-3.png" alt="">
+            <div class="hidden md:block col-span-1">
+                <img class="w-full object-cover" src="\src\assets\images\img-dzung\footer-3.png" alt="">
             </div>
-            
-            
+            <div class="hidden md:block col-span-1">
+                <img class="w-full object-cover" src="\src\assets\images\img-dzung\footer-1.png" alt="">
+            </div>
+            <div class="hidden md:block col-span-1">
+                <img class="w-full object-cover" src="\src\assets\images\img-dzung\footer-2.png" alt="">
+            </div>
         </div>
-
-
-        <div class="container mx-auto px-4 py-8 grid grid-cols-4 gap-20 pl-[375px] pr-[375px] lg:pl-[150px] lg:pr-[150px] md:pl-[50px] md:pr-[50px]">
-            <div class="container mt-10 flex justify-between max-w-6xl text-white py-5 sm:flex sm:flex-col">
-                <div class="max-w-sm">
-                    <div>  
-                <img src="\src\assets\images\img-dzung\lgfooter.png" alt="Nông Thảo" class="h-10 mb-4 brightness-200">
-                <img src="\src\assets\images\img-dzung\tinhhoa.png" alt="Nông Thảo" class="h-auto mb-4 brightness-200"></div>
-                <p class="text-sm">MST: 0123456789/10 - Ngày cấp: 15/02/2023</p>
-                <p class="text-sm">Nơi cấp: Sở KH&ĐT TP Hồ Chí Minh</p>
-                <div class="flex justify-between">
-                    <a href="#" class="text-white hover:text-gray-300"><img src="/src/assets/images/img-dzung/shopee.png" alt="YouTube" class="h-auto"></a>
-                    <a href="#" class="text-white hover:text-gray-300"><img src="/src/assets/images/img-dzung/tiki.png" alt="Zalo" class="h-auto"></a>
-                    <a href="#" class="text-white hover:text-gray-300"><img src="/src/assets/images/img-dzung/laza.png" alt="Facebook" class="h-auto"></a>
-                    <a href="#" class="text-white hover:text-gray-300"><img src="/src/assets/images/img-dzung/face.png" alt="LinkedIn" class="h-auto"></a>
-                    <a href="#" class="text-white hover:text-gray-300"><img src="/src/assets/images/img-dzung/linkln.png" alt="LinkedIn" class="h-auto"></a>
-                    <a href="#" class="text-white hover:text-gray-300"><img src="/src/assets/images/img-dzung/tiktok.png" alt="TikTok" class="h-auto"></a>
+        <div class="max-w-[1170px] mx-auto grid grid-cols-1 md:grid-cols-3 pt-[37.5px] pb-[30px]">
+            <div class="px-[25px] md:px-0 mr-0 md:mr-[74px] col-span-1 flex justify-between text-white">
+                <div class="">
+                    <div class="max-w-[262px]">
+                        <div class="w-full">
+                            <img src="\src\assets\images\img-dzung\lgfooter.png" alt="Nông Thảo"
+                                class="h-10 mb-4 brightness-200">
+                        </div>
+                        <div class="w-full">
+                            <img src="\src\assets\images\img-dzung\tinhhoa.png" alt="Nông Thảo"
+                                class="h-auto mb-4 brightness-200">
+                        </div>
+                    </div>
+                    <p class="mt-[24px] text-sm font-nunito text-[14px] text-[#FFFFFFCC]">MST: 0123456789/10 - Ngày cấp:
+                        15/02/2023</p>
+                    <p class="mt-[20px] text-sm font-nunito text-[14px] text-[#FFFFFFCC]">Nơi cấp: Sở KH&ĐT TP Hồ Chí
+                        Minh</p>
+                    <div class="flex font-nunito text-[#FFFFFFCC] items-center gap-[15px] mt-[22px]">
+                        <div class="font-nunito text-[#FFFFFF]">Liên kết</div>
+                        <div class="flex gap-[10px]">
+                            <a href="#" class="text-white hover:text-gray-300 font-nunito w-[26px]"><img
+                                    src="/src/assets/images/img-dzung/shopee.png" alt="YouTube"
+                                    class="w-full object-cover"></a>
+                            <a href="#" class="text-white hover:text-gray-300 font-nunito w-[26px]"><img
+                                    src="/src/assets/images/img-dzung/tiki.png" alt="YouTube"
+                                    class="w-full object-cover"></a>
+                            <a href="#" class="text-white hover:text-gray-300 font-nunito w-[26px]"><img
+                                    src="/src/assets/images/img-dzung/tiktok.png" alt="YouTube"
+                                    class="w-full object-cover"></a>
+                            <a href="#" class="text-white hover:text-gray-300 font-nunito w-[26px]"><img
+                                    src="/src/assets/images/img-dzung/tiki.png" alt="YouTube"
+                                    class="w-full object-cover"></a>
+                            <a href="#" class="text-white hover:text-gray-300 font-nunito w-[26px]"><img
+                                    src="/src/assets/images/img-dzung/shopee.png" alt="YouTube"
+                                    class="w-full object-cover"></a>
+                            <a href="#" class="text-white hover:text-gray-300 font-nunito w-[26px]"><img
+                                    src="/src/assets/images/img-dzung/face.png" alt="YouTube"
+                                    class="w-full object-cover"></a>
+                        </div>
+                    </div>
+                    <div class="block md:hidden my-[15px] border-[0.5px] border-[#EBF0FFB2]"></div>
                 </div>
             </div>
-            </div>
-
-            
-            <div class="container mt-10 flex justify-between max-w-6xl text-white py-5 sm:flex sm:flex-col">
-                <div class="max-w-sm">
-                    
-                <h3 class="font-semibold mb-2">Liên hệ</h3>
-                <p class="text-sm">1 Ngụy Như Kon Tum, Phường Nhân Chính, Quận Thanh Xuân, Hà Nội</p>
-                <p class="text-sm">0909.71.6548</p>
-                <p class="text-sm">hello@nongthao.com</p>
-                </div>
-            </div>
-
-            <div class="container mt-10 flex justify-between max-w-6xl text-white py-5 sm:flex sm:flex-col">
-                <div class="max-w-sm">
-                <h3 class="font-semibold mb-2">Thông tin</h3>
-                <ul class="list-disc text-sm space-y-1">
-                    <li><a href="#">Giới thiệu Nông Thảo</a></li>
-                    <li><a href="#">Điều khoản</a></li>
-                    <li><a href="#">Chính sách bảo mật</a></li>
-                    <li><a href="#">Hướng dẫn mua hàng</a></li>
-                    <li><a href="#">Phí vận chuyển</a></li>
-                </ul>
-            </div>
-            </div>
-            <div class="container mt-10 flex justify-between max-w-6xl text-white py-5 sm:flex sm:flex-col">
-                <div class="max-w-">  
-                    <h3 class="font-semibold mb-2">Đăng ký nhận tin</h3>
-                    <p class="text-sm mb-2">Nhận ngay những ưu đãi của Nông Thảo</p>
-                    
-                    <form class="flex mb-8"> 
-                        <input type="email" placeholder="Email của bạn" class="flex-grow px-3 py-2 rounded-l-md text-black sm:w-1">
-                        <button type="submit" class="bg-green-500 px-4 rounded-r-md hover:bg-green-600 transition sm:w-1">
-                            <img src="\src\assets\images\img-dzung\fly.png" alt="avatar vi khanh" class="w-60 h-auto mb-3 sm:w-1">  
-                        </button>
-                    </form>
-            
-                    <!-- Hình ảnh nằm trong cùng một cột -->
-                    <div class="flex justify-between">
-                        <img src="\src\assets\images\img-dzung\gov.png" alt="avatar vi khanh" class="img-style w-[45%] h-auto ">  
-                        <img src="\src\assets\images\img-dzung\dmca.png" alt="avatar vi khanh" class="img-style w-[45%] h-auto pl-1">  
+            <div class="px-[25px] md:px-0 col-span-1 md:col-span-2 font-nunito">
+                <div class="grid grid-cols-1 md:grid-cols-3">
+                    <div class="col-span-1">
+                        <div class="font-semibold md:font-bold text-[14px] text-white">LIÊN HỆ</div>
+                        <div class="block md:hidden my-[15px] border-[0.5px] border-[#EBF0FFB2]"></div>
+                        <div class="hidden md:flex mt-[23px]">
+                            <div class="w-[20px] mr-[12px]">
+                                <img class="w-full object-cover" src="../assets/images/img-andrew/icon-location.svg"
+                                    alt="">
+                            </div>
+                            <div class="flex-1 text-[#ffffffcc] text-[14px]">
+                                Tầng 4-5-6, Tòa nhà Capital Place, số 29 đường Liễu Giai, P.Ngọc Khánh, Q.Ba Đình, Hà
+                                Nội
+                            </div>
+                        </div>
+                        <div class="hidden md:flex mt-[12px]">
+                            <div class="w-[20px] mr-[12px]">
+                                <img class="w-full object-cover" src="../assets/images/img-andrew/icon-phone.svg"
+                                    alt="">
+                            </div>
+                            <div class="flex-1 text-[#ffffffcc] text-[14px]">
+                                0969.71.6848
+                            </div>
+                        </div>
+                        <div class="hidden md:flex mt-[12px]">
+                            <div class="w-[20px] mr-[12px]">
+                                <img class="w-full object-cover" src="../assets/images/img-andrew/icon-mail.svg" alt="">
+                            </div>
+                            <div class="flex-1 text-[#ffffffcc] text-[14px]">
+                                hotro@nongthao.vn
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-span-1 md:mx-auto md:max-w-[152px]">
+                        <div class="w-full">
+                            <div class="font-[600] md:font-bold text-[14px] text-white">THÔNG TIN</div>
+                            <div class="block md:hidden my-[15px] border-[0.5px] border-[#EBF0FFB2]"></div>
+                            <ul class="hidden md:block mt-[15px]">
+                                <li class="text-[#ffffffcc] text-[14px]"><span class="font-[900]">.</span> Giới thiệu
+                                    Nông Thảo</li>
+                                <li class="text-[#ffffffcc] mt-[10px] text-[14px]"><span class="font-[900]">.</span>
+                                    Điều khoản</li>
+                                <li class="text-[#ffffffcc] mt-[10px] text-[14px]"><span class="font-[900]">.</span>
+                                    Chính sách bảo mật</li>
+                                <li class="text-[#ffffffcc] mt-[10px] text-[14px]"><span class="font-[900]">.</span>
+                                    Hướng dẫn mua hàng</li>
+                                <li class="text-[#ffffffcc] mt-[10px] text-[14px]"><span class="font-[900]">.</span> Trả
+                                    hàng & hoàn tiền</li>
+                                <li class="text-[#ffffffcc] mt-[10px] text-[14px]"><span class="font-[900]">.</span>
+                                    Nông Thảo Blogs</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-span-1">
+                        <div class="font-[600] md:font-bold text-[14px] text-white">ĐĂNG KÍ NHẬN TIN</div>
+                        <div class="text-[#ffffffcc] text-[14px] mt-[23px]">Vui lòng nhập email để nhận thêm nhiều ưu
+                            đãi từ Nông Thảo</div>
+                        <div class="flex mt-[9px]">
+                            <form class="flex-1" action="">
+                                <input class="placeholder:text-[14px] w-full py-[10px] md:py-[13px] pl-[14px]"
+                                    type="text" placeholder="Email của bạn...">
+                            </form>
+                            <div class="bg-[#68c114] w-[47px] flex items-center justify-center">
+                                <div class="w-[24px]">
+                                    <img class="w-full object-cover"
+                                        src="../assets/images/img-andrew/icon-mail-footer.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex justify-between mt-[33px]">
+                            <div class="w-[130px]">
+                                <img class="w-full object-cover" src="../assets/images/img-andrew/footer-item1.svg"
+                                    alt="">
+                            </div>
+                            <div class="w-[83px]">
+                                <img class="w-full object-cover" src="../assets/images/img-andrew/footer-item2.svg"
+                                    alt="">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            
-        
         </div>
-        <div class="border-t border-green-700">
-            <div class="container mx-auto px-4 py-4 bg-green-800 max-w-full flex justify-center">
-                <p class="text-sm text-center">&copy; 2022 - Bản quyền thuộc về Công ty Nông Thảo</p>
-            </div>
-    </div>
-    </footer>
+        <div class="text-[12px] md:text-[14px] py-[11px] flex justify-center bg-[#85a76a] text-[#ffffffcc]">
+            @2022 - Bản quyền thuộc về Công ty Nông Thảo
+        </div>
+        </footer>
 </body>
 </html>
